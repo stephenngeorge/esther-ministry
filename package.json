@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gsap": "^3.0.1",
     "loriss": "^3.0.0",
     "ministrylib": "^0.1.2",
     "node-sass": "^4.13.0",

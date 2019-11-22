@@ -1,4 +1,5 @@
 import React from 'react'
+import gsap from 'gsap'
 
 import { CallToAction, HeroImage, HeroText, ImageBlock, PlainText, Testimonial, TextLink } from 'ministrylib'
 
