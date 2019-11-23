@@ -45,3 +45,12 @@
         padding-top: 2rem;
     }
 }
+
+.site-map {
+    p {
+        color: $color--complementary !important;
+    }
+    li {
+        text-transform: uppercase;
+    }
+}

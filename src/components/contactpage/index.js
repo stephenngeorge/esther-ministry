@@ -6,9 +6,16 @@ import { ContactIconsData, PlainTextData, TextLinkData, TitleData } from './_dat
 
 const ContactPage = () => {
     useEffect(() => {
+        let page = document.querySelector('.page__contactpage')
+        gsap.from(page, {duration: .8, opacity: 0, x: -32})
+        /**
+         * ----------
+         * ANIMATE ICONS
+         * ----------
+         */
         const animateIcons = entries => {
             const targets = entries.map(entry => entry.target)
-            gsap.to(targets, {duration: 1, opacity: 1, y: 0, stagger: .75})
+            gsap.to(targets, {duration: 1, opacity: 1, y: 0, stagger: .5, ease: "back"})
         }
         const socialIcons = document.querySelectorAll('.contact-icons__contact-methods > li')
         let iconsObserver = new IntersectionObserver(animateIcons, {rootMargin: "-48px"})
