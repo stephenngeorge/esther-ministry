@@ -1,6 +1,8 @@
 @import 'loriss';
 
-.page__aboutpage, .page__boardpage {
+.page__aboutpage,
+.page__boardpage,
+.page__contactpage {
     padding-top: 5rem;
 
     .testimonial {
@@ -16,6 +18,26 @@
             color: $color--complementary;
         }
     }
+}
+
+.page__contactpage .white-space-y {
+    padding-bottom: 1rem !important;
+}
+
+.contact-sub-text {
+    position: relative;
+    padding: 3rem 0;
+
+    .text-link {
+        position: relative;
+        transform: translateY(0);
+        margin-top: 1rem;
+    }
+}
+
+.contact-icons__contact-methods > li {
+    opacity: 0;
+    transform: translateY(16px);
 }
 
 .tab-content {

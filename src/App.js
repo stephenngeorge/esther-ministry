@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import gsap from 'gsap'
 
 import { Page } from 'ministrylib'
-import { AboutPage, BoardPage, Homepage } from './components'
+import { AboutPage, BoardPage, ContactPage, Homepage } from './components'
 import pageData from './components/globals/pageData'
 
 const App = () => {
@@ -29,7 +29,7 @@ const App = () => {
             
             {/* render CONTACT PAGE */}
             <Route path="/contact">
-
+              <ContactPage />
             </Route>
             
             <Route path="/">
