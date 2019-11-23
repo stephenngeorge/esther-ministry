@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import gsap from 'gsap'
 
 import { Page } from 'ministrylib'
-import { AboutPage, Homepage } from './components'
+import { AboutPage, BoardPage, Homepage } from './components'
 import pageData from './components/globals/pageData'
 
 const App = () => {
@@ -23,8 +23,8 @@ const App = () => {
               <AboutPage />
             </Route>
 
-            {/* render ADVISORY BOARD PAGE */}
             <Route path="/advisory-board">
+              <BoardPage />
             </Route>
             
             {/* render CONTACT PAGE */}
