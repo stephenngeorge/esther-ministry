@@ -1,1 +1,25 @@
 @import 'loriss';
+
+.page__aboutpage {
+    padding-top: 5rem;
+
+    .testimonial {
+        .plain-text {
+            text-align: left;
+            justify-content: flex-start;
+
+            &:nth-child(1) {
+                font-size: 2rem;
+            }
+        }
+        .source-text {
+            color: $color--complementary;
+        }
+    }
+}
+
+.tab-content {
+    @include breakpoint("lg") {
+        padding-top: 2rem;
+    }
+}
