@@ -1,4 +1,4 @@
-import { RoBGPortrait } from '../../assets'
+import { RoBGPortrait } from '../../../assets'
 
 const ImageBlockData = {
     headingText: 'That Esther moment',

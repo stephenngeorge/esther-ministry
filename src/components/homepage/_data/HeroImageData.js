@@ -1,4 +1,4 @@
-import { RowenaPic } from '../../assets'
+import { RowenaPic } from '../../../assets'
 
 const HeroImageData = {
     altText: 'Rowena speaking',
