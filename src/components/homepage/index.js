@@ -77,7 +77,7 @@ const Homepage = () => {
             />
             <EventsList     {...EventsListData} />
             <ImageBlock     {...ImageBlockData} />
-            <TextLink       linkText="Find out more" linkUrl="/about" variation="internal" />
+            <TextLink       linkText="find out more" linkUrl="/about" variation="internal" />
             <Testimonial    additionalClasses={['bg--main', 'color--light']}
                             testimonialText="This has given me fresh boldness to speak to everyone I know about Jesus"
             />

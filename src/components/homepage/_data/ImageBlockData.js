@@ -1,7 +1,7 @@
 import { RoBGPortrait } from '../../../assets'
 
 const ImageBlockData = {
-    headingText: 'That Esther moment',
+    headingText: 'that esther moment',
     imageAltText: 'Rowena close up',
     imageUrl: RoBGPortrait,
     leadText: "Esther Ministry was founded to equip, empower and release people into their calling, so that everyone can have their 'Esther' moment.",
