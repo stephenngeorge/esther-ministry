@@ -3,6 +3,7 @@ import gsap from 'gsap'
 
 import {
     CallToAction,
+    EventsList,
     HeroImage,
     HeroText,
     ImageBlock,
@@ -13,6 +14,7 @@ import {
 
 import {
     CallToActionData,
+    EventsListData,
     HeroImageData,
     HeroTextData,
     ImageBlockData
@@ -73,6 +75,7 @@ const Homepage = () => {
                                 many well-known organisations including TearFund and New Wine.
                             "
             />
+            <EventsList     {...EventsListData} />
             <ImageBlock     {...ImageBlockData} />
             <TextLink       linkText="Find out more" linkUrl="/about" variation="internal" />
             <Testimonial    additionalClasses={['bg--main', 'color--light']}
