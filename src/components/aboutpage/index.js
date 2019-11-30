@@ -6,7 +6,6 @@ import { CallToActionData, QuoteBlockData, TabContentData, TestimonialData } fro
 
 const AboutPage = () => {
     useEffect(() => {
-        gsap.from(".content", {duration: .75, y: 50, ease: "back"})
         /**
          * ----------
          * ANIMATE TESTIMONIAL
@@ -58,6 +57,17 @@ const AboutPage = () => {
         let ctaButton = document.querySelector(".call-to-action__button-container > a")
         ctaObserver.observe(ctaButton)
 
+        /**
+         * ----------
+         * ANIMATE QUOTE BLOCK
+         * ----------
+         */
+        const quoteContent = document.querySelector('.quote-block .content-box')
+        const quoteBackground = document.querySelector('.quote-block .cover-image img')
+        gsap.from(quoteContent, {duration: .8, delay: .5, opacity: 0, y: 16})
+        gsap.from(quoteBackground, {duration: .8, delay: .3, opacity: 0})
+        
+        // cleanup
         return () => {
             ctaObserver.unobserve(ctaButton)
             testimonialObserver.unobserve(testimonialText)

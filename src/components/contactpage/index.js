@@ -26,8 +26,12 @@ const ContactPage = () => {
 
     return (
         <div className="page page__contactpage">
-            <div className="text-container--very-narrow" style={{marginTop: "3rem", marginBottom: "3rem"}}>
-                <Title {...TitleData} />
+            <div className="text-container--very-narrow">
+                <div style={{padding: "3rem 0"}}>
+                    <Title {...TitleData} />
+                </div>
+            </div>
+            <div className="text-container--very-narrow" style={{marginBottom: "3rem"}}>
                 <PlainText {...PlainTextData} />
             </div>
             <ContactIcons {...ContactIconsData} />

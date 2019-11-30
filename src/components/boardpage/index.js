@@ -12,8 +12,10 @@ const BoardPage = () => {
 
     return (
         <div className="page page__boardpage">
-            <div style={{marginLeft: "4rem", padding: "3rem 0"}}>
-                <Title {...TitleData} />
+            <div className="text-container--narrow">
+                <div style={{padding: "3rem 0"}}>
+                    <Title {...TitleData} />
+                </div>
             </div>
             <ProfilesList {...ProfilesListData} />
         </div>

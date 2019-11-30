@@ -8,7 +8,7 @@ import pageData from './components/globals/pageData'
 
 const App = () => {
   useEffect(() => {
-    gsap.from(".main-nav__icons, .main-nav__menu", {duration: .75, y: -80})
+    // gsap.from(".main-nav__icons, .main-nav__menu", {duration: .75, y: -80})
     gsap.from(".main-nav__menu--item > a", {duration: .5, delay: .6, opacity: 0})
     gsap.from(".main-nav__site-logo", {duration: .5, delay: .6, opacity: 0, x: -20})
   }, [])
