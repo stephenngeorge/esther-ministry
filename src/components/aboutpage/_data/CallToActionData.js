@@ -2,6 +2,7 @@ const CallToActionData = {
     backgroundColor: 'main',
     buttonColor: 'complementary',
     buttonLink: '/contact',
+    buttonLinkType: 'internal',
     buttonOutline: 'dark',
     buttonText: 'Get in touch',
     headingText: 'find out more',
