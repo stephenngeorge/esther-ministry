@@ -59,5 +59,6 @@ $font-family-serif: 'Bree Serif', serif !important;
 }
 
 .page__homepage .content {
+    z-index: -100;
     overflow: hidden !important;
 }
