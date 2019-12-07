@@ -1,11 +1,20 @@
 {
   "name": "esthermin",
+<<<<<<< HEAD
   "version": "1.0.1",
   "private": true,
   "dependencies": {
     "gsap": "^3.0.1",
     "loriss": "^3.1.2",
     "ministrylib": "^1.0.3",
+=======
+  "version": "1.1.0",
+  "private": true,
+  "dependencies": {
+    "gsap": "^3.0.1",
+    "loriss": "^3.1.4",
+    "ministrylib": "^1.1.0",
+>>>>>>> develop
     "node-sass": "^4.13.0",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
