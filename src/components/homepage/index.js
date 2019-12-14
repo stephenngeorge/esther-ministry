@@ -24,12 +24,6 @@ const Homepage = () => {
     useEffect(() => {
         /**
          * ----------
-         * ANIMATE HOMEPAGE CONTENT
-         * ----------
-         */
-        gsap.from(".content", {duration: .75, y: 50, ease: "back"})
-        /**
-         * ----------
          * ANIMATE CTA BUTTON
          * ----------
          */
