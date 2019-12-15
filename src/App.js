@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 import gsap from 'gsap'
 
 import { Page } from 'ministrylib'
@@ -14,29 +14,27 @@ const App = () => {
 
   return (
     <div className="App">
-      <Router>
-        <Page {...pageData}>
-          <Switch>
+      <Page {...pageData}>
+        <Switch>
 
-            <Route path="/about">
-              <AboutPage />
-            </Route>
+          <Route path="/about">
+            <AboutPage />
+          </Route>
 
-            <Route path="/advisory-board">
-              <BoardPage />
-            </Route>
-            
-            {/* render CONTACT PAGE */}
-            <Route path="/contact">
-              <ContactPage />
-            </Route>
-            
-            <Route path="/">
-              <Homepage />
-            </Route>
-          </Switch>
-        </Page>
-      </Router>
+          <Route path="/advisory-board">
+            <BoardPage />
+          </Route>
+          
+          {/* render CONTACT PAGE */}
+          <Route path="/contact">
+            <ContactPage />
+          </Route>
+          
+          <Route path="/">
+            <Homepage />
+          </Route>
+        </Switch>
+      </Page>
     </div>
   )
 }

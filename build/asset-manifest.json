@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.36449e8a.chunk.css",
-    "main.js": "/static/js/main.14c4029c.chunk.js",
-    "main.js.map": "/static/js/main.14c4029c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.441e8631.js",
-    "runtime-main.js.map": "/static/js/runtime-main.441e8631.js.map",
-    "static/css/2.ba88667d.chunk.css": "/static/css/2.ba88667d.chunk.css",
-    "static/js/2.4c14f40d.chunk.js": "/static/js/2.4c14f40d.chunk.js",
-    "static/js/2.4c14f40d.chunk.js.map": "/static/js/2.4c14f40d.chunk.js.map",
+    "main.css": "/static/css/main.d6930626.chunk.css",
+    "main.js": "/static/js/main.f29a189b.chunk.js",
+    "main.js.map": "/static/js/main.f29a189b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.42e10935.js",
+    "runtime-main.js.map": "/static/js/runtime-main.42e10935.js.map",
+    "static/css/2.0b3b00d9.chunk.css": "/static/css/2.0b3b00d9.chunk.css",
+    "static/js/2.090f174a.chunk.js": "/static/js/2.090f174a.chunk.js",
+    "static/js/2.090f174a.chunk.js.map": "/static/js/2.090f174a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e7f3bd941fea3de55bdd6698de5292ca.js": "/precache-manifest.e7f3bd941fea3de55bdd6698de5292ca.js",
+    "precache-manifest.2414e59bc6a66f04dfdef41bd7a601ec.js": "/precache-manifest.2414e59bc6a66f04dfdef41bd7a601ec.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.ba88667d.chunk.css.map": "/static/css/2.ba88667d.chunk.css.map",
-    "static/css/main.36449e8a.chunk.css.map": "/static/css/main.36449e8a.chunk.css.map",
+    "static/css/2.0b3b00d9.chunk.css.map": "/static/css/2.0b3b00d9.chunk.css.map",
+    "static/css/main.d6930626.chunk.css.map": "/static/css/main.d6930626.chunk.css.map",
+    "static/js/2.090f174a.chunk.js.LICENSE": "/static/js/2.090f174a.chunk.js.LICENSE",
     "static/media/Esther_Logo_Green.jpg": "/static/media/Esther_Logo_Green.a78927d6.jpg",
     "static/media/GenRylett_portrait.jpg": "/static/media/GenRylett_portrait.27626726.jpg",
     "static/media/LouieThorpe_portrait.jpg": "/static/media/LouieThorpe_portrait.7515d0fd.jpg",
@@ -23,10 +24,10 @@
     "static/media/susiePerkin_portrait.jpg": "/static/media/susiePerkin_portrait.8f1af871.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.441e8631.js",
-    "static/css/2.ba88667d.chunk.css",
-    "static/js/2.4c14f40d.chunk.js",
-    "static/css/main.36449e8a.chunk.css",
-    "static/js/main.14c4029c.chunk.js"
+    "static/js/runtime-main.42e10935.js",
+    "static/css/2.0b3b00d9.chunk.css",
+    "static/js/2.090f174a.chunk.js",
+    "static/css/main.d6930626.chunk.css",
+    "static/js/main.f29a189b.chunk.js"
   ]
 }
