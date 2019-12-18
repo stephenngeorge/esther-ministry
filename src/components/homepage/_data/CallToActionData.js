@@ -6,7 +6,7 @@ const CallToActionData = {
     buttonOutline: 'dark',
     buttonText: 'Get in touch',
     headingText: 'find out more',
-    paragraphText: 'Enquire about booking a course, find out more about Rowena and Esther Ministry'
+    paragraphText: 'Find out about booking a course, or ask Rowena any questions you have about her and her ministry'
 }
 
 export default CallToActionData

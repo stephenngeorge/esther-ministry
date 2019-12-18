@@ -47,6 +47,10 @@ $font-family-serif: 'Bree Serif', serif !important;
     @include breakpoint("lg") {
         padding-top: 2rem;
     }
+
+    .tab-contents > p {
+      white-space: pre-wrap;
+    }
 }
 
 .site-map {

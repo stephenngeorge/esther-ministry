@@ -3,6 +3,7 @@ import gsap from 'gsap'
 
 import {
     CallToAction,
+    ContentBox,
     EventsList,
     HeroImage,
     HeroText,
@@ -67,13 +68,16 @@ const Homepage = () => {
             <HeroImage      {...HeroImageData} />
             <HeroText       {...HeroTextData} />
             <CallToAction   {...CallToActionData} />
-            <PlainText      additionalClasses={['text--lead', 'white-space-y', 'text-container--very-narrow']}
-                            text="
-                                Rowena serves as Assistant Pastor in charge of Evangelism and Discipleship 
-                                at St Saviour's Church, Sunbury. She has appeared on UCB, and worked with 
-                                many well-known organisations including TearFund and New Wine.
-                            "
-            />
+            <ContentBox>
+              <PlainText      additionalClasses={['text--lead', 'white-space-y', 'text-container--very-narrow']}
+                              text="
+                                  Rowena has served as Assistant Pastor in charge of Evangelism and Discipleship 
+                                  at St Saviour's Church, Sunbury, and now lives in Malibu, LA where her husband Ron 
+                                  is a pastor. She has appeared on UCB and worked with many well-known organisations 
+                                  such as Tearfund and New Wine.
+                              "
+              />
+            </ContentBox>
             <EventsList     {...EventsListData} />
             <ImageBlock     {...ImageBlockData} />
             <TextLink       linkText="find out more" linkUrl="/about" variation="internal" />
