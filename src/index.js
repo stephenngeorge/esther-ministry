@@ -1,11 +1,11 @@
 import React from 'react'
-import { hydrate } from 'react-dom'
+import { render } from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
 import './index.scss'
 import App from './App'
 import * as serviceWorker from './serviceWorker'
 
-hydrate(
+render(
   <BrowserRouter>
     <App />
   </BrowserRouter>, document.getElementById('root'))

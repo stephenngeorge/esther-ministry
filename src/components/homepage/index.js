@@ -74,7 +74,8 @@ const Homepage = () => {
                                   Rowena has served as Assistant Pastor in charge of Evangelism and Discipleship 
                                   at St Saviour's Church, Sunbury, and now lives in Malibu, LA where her husband Ron 
                                   is a pastor. She has appeared on UCB and worked with many well-known organisations 
-                                  such as Tearfund and New Wine.
+                                  such as Tearfund and New Wine. Esther Ministry has been delivered in the UK, Kenya 
+                                  and India, as is now finding a home in the U.S.A.
                               "
               />
             </ContentBox>
