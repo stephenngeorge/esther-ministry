@@ -3,6 +3,7 @@ import { estherLogoGreen } from '../../assets'
 const pageData = {
     footerAffiliation: "International Justice Mission",
     footerAffiliationUrl: "https://www.ijm.org/",
+    footerAffiliationMessage: "Esther Ministry is proud to support:",
     siteMapLinks: [
         { text: 'HOME', url: '/' },
         { text: 'ABOUT', url: '/about' },

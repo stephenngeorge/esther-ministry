@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import gsap from 'gsap'
 
-import { ContactIcons, PlainText, TextLink, Title } from 'ministrylib'
-import { ContactIconsData, PlainTextData, TextLinkData, TitleData } from './_data'
+import { ContactIcons, PlainText, QuoteBlock, TextLink, Title } from 'ministrylib'
+import { ContactIconsData, PlainTextData, QuoteBlockData, TextLinkData, TitleData } from './_data'
 
 const ContactPage = () => {
     useEffect(() => {
@@ -39,6 +39,7 @@ const ContactPage = () => {
                 <PlainText text="You can find out more about Rowena, her life and ministry on her personal website." />
                 <TextLink {...TextLinkData} />
             </div>
+            <QuoteBlock {...QuoteBlockData} />
         </div>
     )
 }

@@ -66,3 +66,16 @@ $font-family-serif: 'Bree Serif', serif !important;
     z-index: -100;
     overflow: hidden !important;
 }
+
+.image {
+  padding-top: 0 !important;
+  overflow: visible;
+
+  .content-box, .text-container--very-narrow {
+    overflow: visible;
+  }
+  img {
+    width: 100%;
+    box-shadow: 0 2px 12px 6px rgba(0, 0, 0, .2);
+  }
+}

@@ -9,6 +9,7 @@ import RoBGPortrait from './ro_BGPortrait.jpg'
 import RowenaPic from './Rowena_1.jpg'
 import SharronCoburnPortrait from './sharronCoburn_portrait.jpg'
 import SusiePerkinPortrait from './susiePerkin_portrait.jpg'
+import what_is_my_calling from './what_is_my_calling.jpg'
 
 export {
     bibleBackground,
@@ -21,5 +22,6 @@ export {
     RoBGPortrait,
     RowenaPic,
     SharronCoburnPortrait,
-    SusiePerkinPortrait
+    SusiePerkinPortrait,
+    what_is_my_calling
 }

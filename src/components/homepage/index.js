@@ -7,6 +7,7 @@ import {
     EventsList,
     HeroImage,
     HeroText,
+    Image,
     ImageBlock,
     PlainText,
     Testimonial,
@@ -18,7 +19,8 @@ import {
     EventsListData,
     HeroImageData,
     HeroTextData,
-    ImageBlockData
+    ImageBlockData,
+    ImageData
 } from './_data'
 
 const Homepage = () => {
@@ -66,19 +68,30 @@ const Homepage = () => {
     return (
         <div className="page page__homepage">
             <HeroImage      {...HeroImageData} />
-            <HeroText       {...HeroTextData} />
+            <HeroText       {...HeroTextData}>
+              <p>
+                Esther Ministry was established to see people equipped, empowered 
+                and released into their true calling. Have you ever struggled to 
+                know what your gifts are or feel like you don't know what the next 
+                step is on your journey? Esther Ministry is for you. Founded by 
+                Rowena Cross, an <a href="https://archbishops-evangelists.uk/">Archbishop's Evangelist</a>, speaker and writer with a 
+                passion to release people into their gifting, Esther Ministry will 
+                set you on fire for God.
+              </p>
+            </HeroText>
             <CallToAction   {...CallToActionData} />
             <ContentBox>
               <PlainText      additionalClasses={['text--lead', 'white-space-y', 'text-container--very-narrow']}
                               text="
-                                  Rowena has served as Assistant Pastor in charge of Evangelism and Discipleship 
-                                  at St Saviour's Church, Sunbury, and now lives in Malibu, LA where her husband Ron 
-                                  is a pastor. She has appeared on UCB and worked with many well-known organisations 
-                                  such as Tearfund and New Wine. Esther Ministry has been delivered in the UK, Kenya 
-                                  and India, as is now finding a home in the U.S.A.
+                                Rowena has served as Assistant Pastor in charge of Evangelism and Discipleship 
+                                at St Saviour's Church, Sunbury, and now lives in Malibu, LA where her husband Ron 
+                                is a pastor. She has appeared on UCB and worked with many well-known organisations 
+                                such as Tearfund and New Wine. Esther Ministry has been delivered in the UK, India 
+                                and D.R.C, and is now finding a home in the U.S.A!
                               "
               />
             </ContentBox>
+            <Image {...ImageData} />
             <EventsList     {...EventsListData} />
             <ImageBlock     {...ImageBlockData} />
             <TextLink       linkText="find out more" linkUrl="/about" variation="internal" />
