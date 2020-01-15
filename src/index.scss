@@ -66,6 +66,9 @@ $font-family-serif: 'Bree Serif', serif !important;
     z-index: -100;
     overflow: hidden !important;
 }
+.page__boardpage .content-box {
+    max-width: 1248px;
+}
 
 .image {
   padding-top: 0 !important;
