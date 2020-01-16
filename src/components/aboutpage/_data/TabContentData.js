@@ -5,8 +5,8 @@ const TabContentData = {
             key: 1,
             tabText: "Course Options",
             tabContent: {
-                leadParagraph: "Esther Ministry is a flexible course that can be tailored and customised to your situation.",
-                supportingParagraph: "Need an evening teaching event? Or a 3 day, in-depth course? Rowena can deliver Esther Minsitry in a way that best matches your setting and people. Rowena is also an experienced Pastor's wife and has felt the pressure, privilege and lonliness that this can bring, so she is also passionate about provided support and coaching for the other halves of church leaders. Whatever your idea or particular context, Rowena would love to talk to you about how Esther Ministry could work for you."
+                leadParagraph: "<p>Esther Ministry is a flexible course that can be tailored and customised to your situation.</p>",
+                supportingParagraph: "<p>Need an evening teaching event? Or a 3 day, in-depth course? Rowena can deliver Esther Minsitry in a way that best matches your setting and people. Rowena is also an experienced Pastor's wife and has felt the pressure, privilege and lonliness that this can bring, so she is also passionate about provided support and coaching for the other halves of church leaders. Whatever your idea or particular context, Rowena would love to talk to you about how Esther Ministry could work for you.</p>"
             }
         },
         {
@@ -14,8 +14,8 @@ const TabContentData = {
             key: 2,
             tabText: "Course Content",
             tabContent: {
-                leadParagraph: "Although flexible and customisable, Esther Ministry courses typically contain content around the following areas/themes:",
-                supportingParagraph: "Session 1: Laying the groundwork. Ro explains the day and shares her story. This sessions teaching focuses on who we are in Jesus, living as a whole-life disciple and confronting the lies that we believe about ourselves.\n\nSession 2: What are your giftings in this season? This session looks at what the Bible says about gifts and reminds us that we are all unique, and all part of the body of Christ.\n\nSession 3: The gifting exercise. This session is all about YOU! You will be taken through a Spiritual Gifting Exercise that will you discern what your gifts are so you can go out and use them. Our prayer is that this exercise will encourage, bring revelation and affirmation about what comes next in your life.\n\nSession 4: The action plan. What are you going to do with the new found knowledge? In this session you will be encouraged and challenged to go out and fulfil God's calling on your life. ACTS 20:24 - 'But my life is worth nothing to me unless I use it for finishing the work assigned me by the Lord Jesus—the work of telling others the Good News about the wonderful grace of God.'"
+                leadParagraph: "<p>Although flexible and customisable, Esther Ministry courses typically contain content around the following areas/themes:</p>",
+                supportingParagraph: "<p><strong>Session 1: Laying the groundwork.</strong> Ro explains the day and shares her story. This sessions teaching focuses on who we are in Jesus, living as a whole-life disciple and confronting the lies that we believe about ourselves.<br /><br /><strong>Session 2: What are your giftings in this season?</strong> This session looks at what the Bible says about gifts and reminds us that we are all unique, and all part of the body of Christ.<br /><br /><strong>Session 3: The gifting exercise.</strong> This session is all about YOU! You will be taken through a Spiritual Gifting Exercise that will you discern what your gifts are so you can go out and use them. Our prayer is that this exercise will encourage, bring revelation and affirmation about what comes next in your life.<br /><br /><strong>Session 4: The action plan.</strong> What are you going to do with the new found knowledge? In this session you will be encouraged and challenged to go out and fulfil God's calling on your life. ACTS 20:24 - 'But my life is worth nothing to me unless I use it for finishing the work assigned me by the Lord Jesus—the work of telling others the Good News about the wonderful grace of God.'</p>"
             }
         }
     ]
