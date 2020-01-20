@@ -82,3 +82,7 @@ $font-family-serif: 'Bree Serif', serif !important;
     box-shadow: 0 2px 12px 6px rgba(0, 0, 0, .2);
   }
 }
+
+.hero-image img {
+  filter: saturate(0);
+}
