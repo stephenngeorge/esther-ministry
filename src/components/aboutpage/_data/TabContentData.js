@@ -6,7 +6,7 @@ const TabContentData = {
             tabText: "Course Options",
             tabContent: {
                 leadParagraph: "<p>Esther Ministry is a flexible course that can be tailored and customised to your situation.</p>",
-                supportingParagraph: "<p>Need an evening teaching event? Or a 3 day, in-depth course? Rowena can deliver Esther Minsitry in a way that best matches your setting and people. Rowena is also an experienced Pastor's wife and has felt the pressure, privilege and lonliness that this can bring, so she is also passionate about provided support and coaching for the other halves of church leaders. Whatever your idea or particular context, Rowena would love to talk to you about how Esther Ministry could work for you.</p>"
+                supportingParagraph: "<p>Need an evening teaching event? Or a 3 day, in-depth course? Rowena can deliver Esther Minsitry in a way that best matches your setting and people. Rowena is also an experienced Pastor's wife and has felt the pressure, privilege and lonliness that this can bring, so she is also passionate about providing support and coaching for the other halves of church leaders. Whatever your idea or particular context, Rowena would love to talk to you about how Esther Ministry could work for you.</p>"
             }
         },
         {
