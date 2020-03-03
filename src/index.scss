@@ -91,3 +91,8 @@ $font-family-serif: 'Bree Serif', serif !important;
 .hero-image img {
   filter: saturate(0);
 }
+
+.button--disabled {
+  pointer-events: none;
+  background-color: rgba($color--mid, .8) !important;
+}
