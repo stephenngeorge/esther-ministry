@@ -96,3 +96,7 @@ $font-family-serif: 'Bree Serif', serif !important;
   pointer-events: none;
   background-color: rgba($color--mid, .8) !important;
 }
+
+ul.tabs > li {
+  font-family: $font-family-serif;
+}
