@@ -4,7 +4,6 @@ import gsap from 'gsap'
 import {
     CallToAction,
     ContentBox,
-    EventsList,
     HeroImage,
     HeroText,
     Image,
@@ -16,7 +15,6 @@ import {
 
 import {
     CallToActionData,
-    EventsListData,
     HeroImageData,
     HeroTextData,
     ImageBlockData,
@@ -92,7 +90,6 @@ const Homepage = () => {
               />
             </ContentBox>
             <Image {...ImageData} />
-            <EventsList     {...EventsListData} />
             <ImageBlock     {...ImageBlockData} />
             <TextLink       linkText="find out more" linkUrl="/about" variation="internal" />
             <Testimonial    additionalClasses={['bg--main', 'color--light']}
